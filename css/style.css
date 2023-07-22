@@ -951,6 +951,7 @@ header nav ul > li:last-child:hover .megamenu {
 }
 .services .box:hover {
     transform: translateY(-15px);
+    cursor: pointer;
 }
 .services .box:hover::before {
     width: 100%;
