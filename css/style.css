@@ -1157,3 +1157,147 @@ header nav ul > li:last-child:hover .megamenu {
     }
 }
 /* End How It Works */
+/* Start Latest Events */
+.latestEvents {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: white;
+    position: relative;
+}
+.latestEvents .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 20px;
+}
+.latestEvents .container img {
+    max-width: 450px;
+}
+.latestEvents .text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.latestEvents .text-content .time {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.latestEvents .text-content .time .unit {
+    border: 1px solid var(--main-bd-color-2);
+    border-radius: 10px;
+    margin-right: 10px;
+    flex-basis: 75px;
+    min-height: 120px;
+    transition: var(--main-transition);
+}
+.latestEvents .text-content .time .unit:hover {
+    border-color: var(--main-color);
+}
+.latestEvents .text-content .time .unit span {
+    display: inline-block;
+}
+.latestEvents .text-content .time .unit:hover span:last-child {
+    border-color: var(--main-color);
+}
+.latestEvents .text-content .time .unit span:first-child {
+    padding: 10px 2px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-top: 37px;
+}
+.latestEvents .text-content .time .unit span:last-child {
+    border-top: 1px solid var(--main-bd-color-2);
+    padding: 10px;
+    font-size: 16px;
+    transition: var(--main-transition);
+    margin-top: 40px;
+    width: 100%;
+}
+.latestEvents .text-content .text h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.latestEvents .text-content .text p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #777;
+}
+.latestEvents .subscribe {
+    width: fit-content;
+    background-color: var(--section-background);
+    border-radius: 50px;
+    padding: 22px 40px;
+    text-align: center;
+}
+.latestEvents .subscribe input[type="email"] {
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 25px;
+    caret: red;
+    border-color: transparent;
+    background-color: white;
+    margin-right: 20px;
+}
+.latestEvents .subscribe input[type="email"]:focus::placeholder {
+    transition: var(--main-transition);
+    color: transparent;
+}
+.latestEvents .subscribe input[type="email"]:focus {
+    outline: transparent; 
+    caret-color: var(--main-color-alt);
+}
+.latestEvents .subscribe input[type="submit"] {
+    width: 115px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    border-color: transparent;
+    color: white;
+    padding: 11px;
+    font-weight: bold;
+    transition: var(--main-transition);
+}
+.latestEvents .subscribe input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--main-color-alt);
+}
+@media (max-width: 991px) {
+    .latestEvents .container img {
+        display: none;
+    }
+    .latestEvents .text-content {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        text-align: center;
+        align-content: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .latestEvents .subscribe {
+        width: fit-content;
+        background-color: var(--section-background);
+        border-radius: 50px;
+        padding: 22px 40px;
+        text-align: center;
+    }
+    .latestEvents .subscribe input[type="email"] {
+        width: 100%;
+    }
+    .latestEvents .subscribe input[type="submit"] {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+/* End Latest Events */
