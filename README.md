@@ -4,5 +4,5 @@ A Website Called 'AK Website' Is A Platform to Sell Digital Products Online But 
 #### 👨‍💻 To try the website: https://omar95-a.github.io/Website-Project-3/
 #### To be clear, the images in this website are of people that do not exist. They are not real, they are from a site that offers images of fake people AI generated. The names are also fake names.
 
-#### Special Thanks To Osama Elzero
-https://elzero.org/category/courses/html-and-css-practice/
+#### Special Thanks To Osama Elzero https://elzero.org/category/courses/html-and-css-practice/
+
