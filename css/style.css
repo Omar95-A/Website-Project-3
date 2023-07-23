@@ -1452,3 +1452,88 @@ header nav ul > li:last-child:hover .megamenu {
     color: white;
 }
 /* End Pricing Plans */
+/* Start Top Videos */
+.topVideos {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: white;
+}
+.topVideos .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.topVideos .title {
+    border: 2px solid #e6e3e3;
+    height: 680px;
+    overflow-y: scroll;
+}
+.topVideos .title span {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+    
+}
+.topVideos .title h4 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: relative;
+}
+.topVideos .title h4::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f074";
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    top: 19px;
+    right: 18px;
+}
+.topVideos .title ul li {
+    border-top: 2px solid #e6e3e3;
+    padding: 20px;
+}
+.topVideos .title ul li:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+    color: var(--main-color-alt);
+}
+.topVideos .poster {
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 1;
+}
+.topVideos .poster .image {
+    position: relative;
+}
+.topVideos .poster .image::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f144";
+    font-weight: 900;
+    font-size: 65px;
+    position: absolute;
+    top: 41%;
+    right: 46%;
+    color: #8f8383;
+    opacity: 0.6;
+}
+.topVideos .poster .image:hover::after {
+    cursor: pointer;
+}
+.topVideos .poster img{
+    width: 100%;
+}
+.topVideos .poster .text {
+    background-color: white;
+}
+.topVideos .poster p {
+    padding: 20px;
+}
+@media (max-width: 991px) {
+    .topVideos .title {
+        width: 100%;
+    }
+}
+/* End Top Videos */
