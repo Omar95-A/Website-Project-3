@@ -1302,3 +1302,153 @@ header nav ul > li:last-child:hover .megamenu {
     }
 }
 /* End Latest Events */
+/* Start Pricing Plans */
+.pricingPlans {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--section-background);
+    position: relative;
+}
+.pricingPlans .dots {
+    position: absolute;
+    width: 206px;
+    height: 200px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.8;
+}
+.pricingPlans .dots-up {
+    top: 100px;
+    right: 0;
+}
+.pricingPlans .dots-down {
+    bottom: 20px;
+}
+.pricingPlans .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 40px;
+}
+.pricingPlans .container .box {
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+    position: relative;
+    z-index: 1;
+}
+.pricingPlans .container .box::before {
+    content: "";
+    background-color: rgba(151, 146, 146, 0.1);
+    width: 0;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: var(--main-transition);
+    z-index: -1;
+}
+.pricingPlans .container .box::after {
+    content: "";
+    background-color: rgba(151, 146, 146, 0.1);
+    width: 0;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: var(--main-transition);
+    z-index: -1;
+}
+.pricingPlans .container .box:hover::before {
+    width: 100%;
+    height: 50%;
+}
+.pricingPlans .container .box:hover::after {
+    width: 100%;
+    height: 50%;
+}
+.pricingPlans .container .box:hover a {
+    background-color: #dfcbcb1a;
+}
+.pricingPlans .container .box ul {
+    text-align: left;
+    margin-top: 20px;
+}
+.pricingPlans .box h3 {
+    padding: 31px;
+    font-size: 25px;
+    letter-spacing: -2px;
+}
+.pricingPlans .box-popular h3::before {
+    content: "Most Popular";
+    background-color: var(--main-color-alt);
+    width: 46px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    right: 27px;
+    font-size: 16px;
+    color: white;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+    z-index: 2;
+}
+.pricingPlans .box-popular h3::after {
+    content: "";
+    border: 23px;
+    border-style: solid;
+    border-color: var(--main-color-alt) var(--main-color-alt) transparent var(--main-color-alt);
+    width: 0;
+    height: 24px;
+    position: absolute;
+    top: 104px;
+    right: 27px;
+    z-index: 1;
+}
+.pricingPlans .container .box img {
+    width: 100px; 
+}
+.pricingPlans .box .prices span {
+    display: block;
+}
+.pricingPlans .box .prices span:first-child {
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin: 20px 0 8px;
+}
+.pricingPlans .box .prices span:last-child {
+    color: #777;
+}
+.pricingPlans .container .box ul li {
+    border-top: 1px solid #e6e3e3;
+    padding: 20px;
+}
+.pricingPlans .container .box ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c"; 
+    font-weight: 900; 
+    margin-right: 10px;
+    color: var(--main-color);
+    font-size: large;
+}
+.pricingPlans .container .box a {
+    color: var(--main-color-alt);
+    background-color: white;
+    border: 2px solid var(--main-color-alt);
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 40px;
+    transition: var(--main-transition);
+}
+.pricingPlans .container .box a:hover {
+    background-color: var(--main-color-alt);
+    color: white;
+}
+/* End Pricing Plans */
