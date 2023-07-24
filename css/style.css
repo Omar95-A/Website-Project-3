@@ -590,6 +590,9 @@ header nav ul > li:last-child:hover .megamenu {
     position: relative;
     border: 15px solid white;
 }
+.gallery .container .box:hover {
+    cursor: pointer;
+}
 .gallery .container .box::after {
     content: "";
     background-color: white;
