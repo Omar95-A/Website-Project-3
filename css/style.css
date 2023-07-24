@@ -1537,3 +1537,88 @@ header nav ul > li:last-child:hover .megamenu {
     }
 }
 /* End Top Videos */
+/* Start Our Awesome Stats */
+.ourAwesomeStats {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-image: url(../imgs/stats.jpg);
+    background-size: cover;
+    position: relative;
+}
+.ourAwesomeStats::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255 255 255 / 92%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.ourAwesomeStats h1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 38px;
+    letter-spacing: -2px;
+}
+.ourAwesomeStats .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 20px;
+}
+.ourAwesomeStats .container .box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+}
+.ourAwesomeStats .box::before,
+.ourAwesomeStats .box::after {
+    content: "";
+    background-color: var(--main-color-alt);
+    position: absolute;
+    width: 2px;
+    height: 0;
+    transition: var(--main-transition);
+}
+.ourAwesomeStats .box::before {
+    bottom: 0;
+    left: 0;
+}
+.ourAwesomeStats .box::after {
+    top: 0;
+    right: 0;
+}
+.ourAwesomeStats .box:hover::before,
+.ourAwesomeStats .box:hover::after {
+    height: 100%;
+}
+.ourAwesomeStats .container .box i {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+}
+.ourAwesomeStats .container .box span:first-of-type {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+    color: rgb(26, 26, 26);
+}
+.ourAwesomeStats .container .box span:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    font-style: italic;
+}
+.ourAwesomeStats .container .box:hover i, span:first-of-type {
+    color: black;
+}
+.ourAwesomeStats .container .box:hover span:first-of-type {
+    color: black;
+}
+.ourAwesomeStats .container .box:hover span:last-child {
+    color: var(--main-color-alt)
+}
+/* End Our Awesome Stats */
