@@ -1574,6 +1574,9 @@ header nav ul > li:last-child:hover .megamenu {
     padding: 30px;
     position: relative;
 }
+.ourAwesomeStats .container .box:hover {
+    cursor: pointer;
+}
 .ourAwesomeStats .box::before,
 .ourAwesomeStats .box::after {
     content: "";
