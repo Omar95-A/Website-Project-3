@@ -1203,6 +1203,7 @@ header nav ul > li:last-child:hover .megamenu {
 }
 .latestEvents .text-content .time .unit:hover {
     border-color: var(--main-color);
+    cursor: wait;
 }
 .latestEvents .text-content .time .unit span {
     display: inline-block;
