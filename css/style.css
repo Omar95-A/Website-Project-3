@@ -518,7 +518,7 @@ header nav ul > li:last-child:hover .megamenu {
 }
 .articles .box {
     border-radius: 2%;
-    overflow: hidden;                              /*            9I            */
+    overflow: hidden;
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
     position: relative;
     background-color: white;
@@ -527,6 +527,7 @@ header nav ul > li:last-child:hover .megamenu {
 .articles .box:hover {
     transform: translateY(-15px);
     box-shadow: 0 2px 15px rgb(0 0 0 / 30%);
+    cursor: pointer;
 }
 .articles .box:hover .info i {
     animation: icon-move 1s linear backwards infinite;
