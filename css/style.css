@@ -1744,4 +1744,13 @@ header nav ul > li:last-child:hover .megamenu {
     cursor: pointer;
     background-color: var(--main-color-alt);
 }
+@media (max-width: 991px) {
+    .discount .discount-text {
+        flex-basis: 100%;
+    }
+    .discount .discount-form {
+        flex-basis: 100%;
+        padding: 40px 5px;
+    }
+}
 /* End Discount */
