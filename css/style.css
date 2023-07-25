@@ -1678,4 +1678,27 @@ header nav ul > li:last-child:hover .megamenu {
     padding: 68px 0 45px;
     position: relative;
 }
+.discount .discount-text p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+    position: relative;
+}
+.discount .discount-text p::selection,
+.discount .discount-text h3::selection {
+    background-color: #f46275;
+}
+.discount .discount-text img {
+    display: block;
+    width: 300px;
+    position: relative;
+}
+.discount .discount-form {
+    flex-basis: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
 /* End Discount */
