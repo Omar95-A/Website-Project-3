@@ -1733,4 +1733,11 @@ header nav ul > li:last-child:hover .megamenu {
     height: 200px;
     resize: none;
 }
+.discount .discount-form form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
 /* End Discount */
