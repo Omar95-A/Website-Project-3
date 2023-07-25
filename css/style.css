@@ -1717,4 +1717,12 @@ header nav ul > li:last-child:hover .megamenu {
     text-transform: capitalize;
     padding: 25px 0 40px;
 }
+.discount .discount-form form input ,textarea {
+    width: 100%;
+    height: 50px;
+    border-width: 1px;
+    border-color: transparent transparent #ccc transparent;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
 /* End Discount */
