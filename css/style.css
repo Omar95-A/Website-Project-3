@@ -1701,4 +1701,20 @@ header nav ul > li:last-child:hover .megamenu {
     text-align: center;
     padding: 0 20px;
 }
+.discount .discount-form form * {
+    display: block;
+}
+.discount .discount-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+}
+.discount .discount-form h3 {
+    font-size: 35px;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    padding: 25px 0 40px;
+}
 /* End Discount */
