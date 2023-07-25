@@ -1740,4 +1740,8 @@ header nav ul > li:last-child:hover .megamenu {
     font-weight: bold;
     padding: 10px;
 }
+.discount .discount-form form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--main-color-alt);
+}
 /* End Discount */
