@@ -1884,4 +1884,9 @@ footer .last-info {
 footer .last-info p:first-child {
     margin-bottom: 20px;
 }
+footer .last-info p span, a {
+    color: var(--main-color);
+    font-size: 17px;
+    font-weight: bold;
+}
 /* End Footer */
