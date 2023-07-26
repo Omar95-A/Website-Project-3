@@ -1830,4 +1830,18 @@ footer .container .box:nth-child(2) ul li {
     left: 0; 
     padding: 15px 0;
 }
+footer .container .box:nth-child(2) ul li:not(:last-child) {
+    border-bottom: 1px solid #444;
+}
+footer .container .box:nth-child(2) ul li a::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\F101";
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--main-color);
+}
+footer .container .box:nth-child(2) ul li a:hover {
+    left: 20px; 
+    color: white;
+}
 /* End Footer */
