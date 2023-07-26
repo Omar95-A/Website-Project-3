@@ -1818,4 +1818,16 @@ footer .container .box-images img {
 footer .container .box img:hover {
     cursor: grab;
 }
+footer .container .box:nth-child(2) ul li a {
+    color: #b9b9b9;
+    position: relative;
+    transition: var(--main-transition); 
+    left: 0;
+}
+footer .container .box:nth-child(2) ul li {
+    position: relative;
+    transition: var(--main-transition); 
+    left: 0; 
+    padding: 15px 0;
+}
 /* End Footer */
