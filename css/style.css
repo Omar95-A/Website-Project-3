@@ -1807,4 +1807,15 @@ footer .container .box .icons i.fa-youtube:hover {
     border: 2px solid #ff0000;
     background-color: #ff0000;
 }
+footer .container .box > p {
+    line-height: 1.8;
+}
+footer .container .box-images img {
+    width: 78px;
+    border: 3px solid white;
+    margin: 2px;
+}
+footer .container .box img:hover {
+    cursor: grab;
+}
 /* End Footer */
