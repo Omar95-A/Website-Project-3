@@ -1754,3 +1754,17 @@ header nav ul > li:last-child:hover .megamenu {
     }
 }
 /* End Discount */
+/* Start Footer */
+footer {
+    padding-top: var(--main-padding-top);
+    padding-bottom: 25px;
+    background-color: #191919;
+    color: #b9b9b9;
+}
+footer .container {
+    display: grid;
+    grid-template-columns:  repeat(auto-fill,minmax(250px,1fr));
+    gap: 30px;
+    padding-bottom: 50px;
+}
+/* End Footer */
