@@ -1874,4 +1874,11 @@ footer > p {
     font-size: 15px;
     border-top: 1px solid #444; 
 }
+footer .last-info {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 15px;
+    border-top: 1px solid #444;  
+}
 /* End Footer */
