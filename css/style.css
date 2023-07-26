@@ -1867,4 +1867,11 @@ footer .container .box:nth-child(3) address span {
 footer .container .box:nth-child(3) address i {
     font-size: 25px;
 }
+footer > p {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 15px;
+    border-top: 1px solid #444; 
+}
 /* End Footer */
