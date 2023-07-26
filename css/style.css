@@ -1864,4 +1864,7 @@ footer .container .box:nth-child(3) address span {
     line-height: 1.8;
     font-style: normal;
 }
+footer .container .box:nth-child(3) address i {
+    font-size: 25px;
+}
 /* End Footer */
