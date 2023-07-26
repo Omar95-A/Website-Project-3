@@ -1844,4 +1844,24 @@ footer .container .box:nth-child(2) ul li a:hover {
     left: 20px; 
     color: white;
 }
+footer .container .box:nth-child(3) address {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+}
+footer .container .box:nth-child(3) address .line span {
+    display: block;
+}
+footer .container .box:nth-child(3) address .line {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+footer .container .box:nth-child(3) address span {
+    color: #b9b9b9;
+    font-size: 15px;
+    line-height: 1.8;
+    font-style: normal;
+}
 /* End Footer */
