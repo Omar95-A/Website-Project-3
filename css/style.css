@@ -1789,6 +1789,7 @@ footer .container .box a.Ak-logo {
     color: white;
     display: flex;
     align-items: center;
+    transition: 0.3s;
 }
 footer .container .box a.Ak-logo img {
     width: 50px;
