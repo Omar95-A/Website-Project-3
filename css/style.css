@@ -215,12 +215,17 @@ header .container {
 header .container a.logo {
     color: var(--main-color);
     text-decoration: none;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: bold;
     height: 72px;
     display: flex;   
     justify-content: center;
     align-items: center;
+}
+@media (min-width: 993px) {
+    header .container a.logo {
+        font-size: 25px;
+    }
 }
 header .container .logo {
     display: flex;
