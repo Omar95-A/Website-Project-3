@@ -221,7 +221,15 @@ header .container a.logo {
     display: flex;   
     justify-content: center;
     align-items: center;
-    
+}
+header .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .container .logo img {
+    width: 50px;
+    margin-right: 10px;
 }
 @media (max-width: 768px) {
     header .container .logo {
@@ -1771,7 +1779,12 @@ footer .container .box a.Ak-logo {
     font-size: 40px;
     margin-bottom: 20px;
     color: white;
-    display: block;
+    display: flex;
+    align-items: center;
+}
+footer .container .box a.Ak-logo img {
+    width: 50px;
+    margin-right: 10px;
 }
 footer .container .box a.Ak-logo:hover {
     color: var(--main-color);
