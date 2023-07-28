@@ -849,6 +849,36 @@ header nav ul > li:last-child:hover .megamenu {
     top: -41px;
     border: 10px solid var(--section-background);
 }
+@media (min-width: 443px) and (max-width: 607px) {
+    .testimonials .box img {
+        width: 30%;
+    }
+}
+@media (min-width: 608px) and (max-width: 686px) {
+    .testimonials .box img {
+        width: 25%;
+    }
+}
+@media (min-width: 687px) and (max-width: 767px) {
+    .testimonials .box img {
+        width: 44%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .testimonials .box img {
+        width: 44%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .testimonials .box img {
+        width: 35%;
+    }
+}
+@media (min-width: 1200px){
+    .testimonials .box img {
+        width: 44%;
+    }
+}
 .testimonials .box i {
     color: #ffc107;
     background-color: yellow;
