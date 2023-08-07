@@ -1875,7 +1875,7 @@ footer .container .box-images img {
     border: 3px solid white;
     margin: 2px;
 }
-footer .container .box img:hover {
+footer .container .box img:hover:not(a.Ak-logo img) {
     cursor: grab;
 }
 footer .container .box:nth-child(2) ul li a {
