@@ -1775,10 +1775,13 @@ header nav ul > li:last-child:hover .megamenu {
     border-color: transparent transparent #ccc transparent;
     background-color: #f9f9f9;
     padding: 15px;
+    transition: 0.3s;
 }
 .discount .discount-form form input:not(:last-child):focus ,textarea:focus {
     outline: transparent;
     box-shadow: 0 5px 15px #777;
+    width: 102%;
+    height: 52px;
 }
 .discount .discount-form form textarea {
     height: 200px;
